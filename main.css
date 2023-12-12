@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Tahoma , Arial;
+}
+.quiz-app{
+    margin: 20px auto;
+    width: 800px;
+    background-color: #f8f8f8;
+    padding:15px;
+
+}
+.quiz-app .quiz-info{
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+}
+.quiz-app .quiz-info .quiz-category{
+    flex:1;
+}
+.quiz-app .quiz-info .count{
+    flex:1;
+    align-items: right;
+}
+.quiz-app .quiz-area{
+    margin: 15px;
+    background-color: #fff;
+    padding: 20px;
+}
+.quiz-app .quiz-area h2 {
+    margin: 0;
+}
+.quiz-app .answer-area{
+    background-color: #fff;
+    padding: 20px ;
+}
+.quiz-app .answer-area .answer{
+    background-color: #f8f8f8f8;
+    padding: 15px;
+}
+.quiz-app .answer-area .answer:not(:last-child){
+    border-bottom:1px solid #dfdfdf
+}
+.quiz-app .answer-area .answer input[type="Radio"]:checked + label {
+    color:#0075ff
+}
+.quiz-app .answer-area .answer label{
+    cursor: pointer;
+    color: #777;
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    position: relative;
+    top: -2px;
+}
+.quiz-app .submit-button{
+    display: block;
+    background-color: #0075ff;
+    cursor: pointer;
+    width: 100%;
+    padding: 15px ;
+    border: none;
+    border-radius: 6px;
+    color:#fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px auto;
+}
+.quiz-app .submit-button :focus{
+    outline: none;
+}
+.quiz-app .bullets{
+    border-top: 1px solid #dfdfdf;
+    background-color: #fFF;
+    display: flex;
+    padding: 20px;
+}
+.quiz-app .bullets .spans{
+display: flex;
+flex: 1;
+}
+.quiz-app .bullets .spans span{
+    width: 20px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin: 5px;
+}
+.quiz-app .bullets .spans span.on{
+    background-color: #0075ff;
+}
+.quiz-app .results span{
+    font-weight: bold;
+}
+.quiz-app .results span.bad{
+    color: #dc0a0a;
+}.quiz-app .results span.good{
+    color: #009688;
+}.quiz-app .results span.prefect{
+    color: #0075ff;
+}

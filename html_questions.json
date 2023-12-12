@@ -1,0 +1,82 @@
+[
+  {
+    "title": "What is React?",
+    "answer_1": "A JavaScript library for building user interfaces.",
+    "answer_2": "A programming language for server-side development.",
+    "answer_3": "A database management system.",
+    "answer_4": "A styling framework for web applications.",
+    "right_answer": "A JavaScript library for building user interfaces."
+  },
+  {
+    "title": "What are components in React?",
+    "answer_1": "Reusable code blocks that represent parts of a user interface.",
+    "answer_2": "Configuration files for React projects.",
+    "answer_3": "Database tables that store application data.",
+    "answer_4": "JavaScript functions that manipulate the DOM.",
+    "right_answer": "Reusable code blocks that represent parts of a user interface."
+  },
+  {
+    "title": "What is JSX?",
+    "answer_1": "A syntax extension for JavaScript that allows writing HTML-like code in React components.",
+    "answer_2": "A package manager for React applications.",
+    "answer_3": "A version control system for React projects.",
+    "answer_4": "A testing framework for React components.",
+    "right_answer": "A syntax extension for JavaScript that allows writing HTML-like code in React components."
+  },
+  {
+    "title": "What is the purpose of state in React?",
+    "answer_1": "To store and manage data within a React component.",
+    "answer_2": "To define the structure of a React component.",
+    "answer_3": "To handle user events in a React component.",
+    "answer_4": "To apply styles to a React component.",
+    "right_answer": "To store and manage data within a React component."
+  },
+  {
+    "title": "What is the role of props in React?",
+    "answer_1": "To pass data from a parent component to a child component.",
+    "answer_2": "To define the initial state of a React component.",
+    "answer_3": "To handle form submissions in a React component.",
+    "answer_4": "To apply CSS styles to a React component.",
+    "right_answer": "To pass data from a parent component to a child component."
+  },
+  {
+    "title": "What is the purpose of componentDidMount() lifecycle method in React?",
+    "answer_1": "To update the state of a React component.",
+    "answer_2": "To render the initial structure of a React component.",
+    "answer_3": "To perform side effects after the component has been rendered.",
+    "answer_4": "To handle user interactions in a React component.",
+    "right_answer": "To perform side effects after the component has been rendered."
+  },
+  {
+    "title": "What is the significance of keys in React lists?",
+    "answer_1": "To define the layout of a React component.",
+    "answer_2": "To optimize the rendering performance of a React component.",
+    "answer_3": "To handle user inputs in a React component.",
+    "answer_4": "To track the identity of each component in a list for efficient updates.",
+    "right_answer": "To track the identity of each component in a list for efficient updates."
+  },
+  {
+    "title": "What is Redux in React?",
+    "answer_1": "A server-side rendering framework for React.",
+    "answer_2": "A styling library for React components.",
+    "answer_3": "A state management library for React applications.",
+    "answer_4": "A testing framework for React components.",
+    "right_answer": "A state management library for React applications."
+  },
+  {
+    "title": "What is the purpose of React Router?",
+    "answer_1": "To handle asynchronous operations in React components.",
+    "answer_2": "To manage form submissions in React applications.",
+    "answer_3": "To handle client-side routing in React applications.",
+    "answer_4": "To apply animations to React components.",
+    "right_answer": "To handle client-side routing in React applications."
+  },
+  {
+    "title": "What are React hooks?",
+    "answer_1": "Functions that enable stateful logic in functional components.",
+    "answer_2": "Utility classes for styling React components.",
+    "answer_3": "Configuration files for React projects.",
+    "answer_4": "Event handlers for user interactions in React components.",
+    "right_answer": "Functions that enable stateful logic in functional components."
+  }
+]
